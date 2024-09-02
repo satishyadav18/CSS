@@ -1,0 +1,72 @@
+h1{
+    color: pink;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    /* background-color: aqua; */
+    border: solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: red;
+    /* position: static;
+    top: 400px; */
+    /* z-index: 0; not possible in static position*/
+}
+
+#box2{
+    background-color: green;
+    /* position: relative;
+    left: 100px;
+    top: 200px; */
+
+}
+
+#box3{
+    background-color: yellow;
+    /* position: absolute;
+    position: sticky;
+    right: 400px;
+    top: 350px; */
+}
+
+#box4{
+    background-color: pink;
+    /* position: fixed;
+    left:50px;
+    bottom: 0px; 
+    top:50px;
+    width: 100%;
+    z-index: -1; */
+}
+
+#box1{
+    background-image: url(Cat.avif);
+    background-size: cover;
+}
+
+#box2{
+    background-image: url(oceanwallpaper.avif);
+    background-size: cover;
+}
+
+#box3{
+    background-image: url(beach.avif);
+    background-size: cover;
+}
+
+#box4{
+    background-image: url(satish.jpg);
+    background-size: cover;
+}
+
+body{
+    background-image: url(beach.avif);
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat;*/
+} 

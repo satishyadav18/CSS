@@ -1,0 +1,29 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* display: none; */
+
+}
+/*inline elements does not support properly block elements property like height width margin ...... so we use inline-block
+   diplay : none is used to remove element without even creating any space for that */
+
+#box1{
+    /* background-color: blue; */
+    background-color: rgba(0, 0, 255, 0.5);
+}
+/* rgba-> red green blue alpha channel, alpha set the drakness or lightness of a colour range b/w 0-1  */
+
+#box2{
+    /* background-color: green; */
+    background-color: rgba(0, 0, 255, 0.75);
+    /* visibility: hidden; */
+}
+/* visibility : hidden is similar to display: none but it reserves space of the element. */
+
+#box3{
+    /* background-color:red; */
+    background-color: rgba(0, 0, 255, 1) ;
+}

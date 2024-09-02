@@ -1,0 +1,76 @@
+/* 
+#headingOne{
+    background-color: darkolivegreen;
+}
+
+#headingTwo{
+    background-color: rgb(47, 84, 107);
+}
+
+.myClass{
+    background-color: darkcyan;
+}
+
+p{
+    background-color: lightblue;
+}
+
+
+
+#box{
+    color: darkslategray;
+    background-color: bisque;
+} */
+
+button{
+    background-color: green;
+}
+
+span{
+    color: cornflowerblue;
+    background-color: dimgrey;
+}
+
+p{
+    background-color: rgb(149, 249, 249);
+    /* text-align: right; */
+    text-align: start;
+}
+
+h1{
+    text-align: center;
+    text-decoration: red wavy underline;
+    /* text-decoration: line-through; */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* font-weight range: 100-900 */
+h2{
+    font-weight: lighter;
+}
+
+h3{
+    font-weight:900 ;
+}
+
+h4{
+    font-weight: 100;
+}
+
+/* 1 inch = 96 pixels */
+/* line-height used to fix space between lines */
+#one{
+    font-family:cursive;
+    color: rgb(217, 137, 17);
+    font-size: 5px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    text-transform: capitalize;
+}
